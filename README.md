@@ -18,6 +18,34 @@ Most of the work focuses on understanding and tuning the transformer—how it le
 - Explored **model variations** (layer depth, head count).  
 - Applied **learning-rate warmup**, **cosine decay**, **weight decay**, and **gradient clipping**.
 
+## 📊 Data Analysis & Heuristics
+
+### Word Length Distribution  
+![Word Length Distribution](assets/images/word_length_distribution.png)
+
+### Letter Frequency in Dataset  
+![Letter Frequency](assets/images/letter_frequency.png)
+
+### Unique Letter Frequency (One Count Per Word)  
+![Unique Letter Frequency](assets/images/unique_letter_frequency.png)
+
+### First & Last Letter Frequency  
+![First & Last Letter Frequency](assets/images/first_last_letter_frequency.png)
+
+### Top Bigrams & Trigrams  
+![Top Bigrams & Trigrams](assets/images/top_bigrams_trigrams.png)
+
+### Average Vowel Ratio by Word Length  
+![Average Vowel Ratio by Word Length](assets/images/average_vowel_ratio_by_length.png)
+
+### Vowel Ratio Scatter (Lengths 6–20)  
+![Vowel Ratio Scatter](assets/images/vowel_ratio_scatter.png)
+
+### Vowel Weight Decay Function  
+![Vowel Weight Decay Function](assets/images/vowel_weight_decay.png)
+
+### Cosine Similarity of Position-Based Letter Distributions  
+![Cosine Similarity Heatmap](assets/images/cosine_similarity_heatmap.png)
 
 ## 📊 Performance Metrics
 
@@ -45,7 +73,7 @@ Most of the work focuses on understanding and tuning the transformer—how it le
 
 ## 🕹️ Hangman Solver: Data-Driven Strategy
 
-> Core insights and heuristics driving the lightweight Hangman solver :contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}
+> Core insights and heuristics driving the lightweight Hangman solver
 
 ### 1. Dataset Analysis
 - **Vocabulary Size**: ~250 000 unique words.  
