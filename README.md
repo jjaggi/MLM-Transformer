@@ -36,7 +36,7 @@ Most of the work focuses on understanding and tuning the transformer—how it le
 | ------------------------------------- | ------- |
 | MLM Train Loss (Epoch 1)              | 0.0169  |
 | MLM Val Loss (Epoch 1)                | 0.0164  |
-| Masked-Character Accuracy (600 words) | 40.17%  |
+| Masked-Character Accuracy             | 63.17%  |
 | Overall Solver Success Rate           | 69.8%   |
 | Practice Success Rate (100K runs)     | ~71.1%  |
 
