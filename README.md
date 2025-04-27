@@ -54,13 +54,6 @@ Most of the work focuses on understanding and tuning the transformer—how it le
   <img src="assets/images/Screenshot 2025-03-18 105609.png" alt="Practice Success Rate" width="600"/>
 </div>
 
-## 📥 Download the Repo
-
-The repository is packaged and ready for download:
-
-- **ZIP Archive**: [Download ZIP](sandbox:/mnt/data/hangman-transformers.zip)
-
----
 
 ## 📄 License
 
